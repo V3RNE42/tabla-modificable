@@ -1,0 +1,33 @@
+* {
+    border: 0.1em;
+    border-radius: 0.35em;
+    border-color: black;
+    background-color: lightcoral;
+}
+#wrapper {
+    display: flex;
+    max-width: 85%;
+    margin-left: 8%;
+    padding: 0.2em;
+}
+p {
+    background-color: beige;
+    padding: 1em;
+    justify-content: center;
+    border-style: solid;
+    min-height: 1.5em;
+}
+input {
+    margin-top: 2em;
+    background-color: lightgray;
+    min-width: 3.5em;
+    min-height: 2.5em;
+    border-width: 0.15em;
+    border-style: solid;
+    border-color: black;
+}
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
